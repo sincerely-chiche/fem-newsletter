@@ -1,13 +1,15 @@
 <template>
   <div
-    class="min-w-screen h-screen overflow-auto sm:overflow-hidden bg-lightGrey text-white sm:flex sm:flex-col sm:justify-center sm:items-start"
+    class="min-w-screen h-screen overflow-auto lg:overflow-hidden bg-lightGrey text-white md:flex md:flex-col md:justify-center md:items-center lg:items-start"
   >
     <AlertModal :email="email" @close="closeModal" v-if="success.state" />
     <div
       v-else
-      class="w-full sm:w-7/12 sm:mx-auto h-full sm:h-[70vh] sm:px-6 sm:py-4 bg-white text-darkGrey sm:rounded-3xl flex sm:flex-row flex-col-reverse sm:shadow-md animate__animated animate__zoomIn animate__faster"
+      class="w-full lg:w-10/12 xl:w-7/12 lg:mx-auto h-full lg:h-[70vh] lg:pl-6 lg:pr-4 lg:py-4 bg-white text-darkGrey lg:rounded-3xl flex md:flex-row flex-col-reverse lg:shadow-md animate__animated animate__zoomIn animate__faster"
     >
-      <div class="w-full sm:w-7/12 sm:pt-16 sm:pl-10 sm:pr-16 px-6">
+      <div
+        class="w-full lg:w-7/12 md:pt-28 lg:pt-16 lg:pl-10 lg:pr-16 px-6 lg:overflow-auto"
+      >
         <!-- Sign-up form start -->
         <h1 class="text-5xl font-bold">Stay updated!</h1>
 
@@ -68,11 +70,11 @@
 
         <!-- Sign-up form end -->
       </div>
-      <div class="w-full sm:w-5/12">
+      <div class="w-full lg:w-5/12">
         <img
           src="images/desktop-img.svg"
           alt="Frontend mentor"
-          class="object-cover object-center h-full w-full -mt-[15%] sm:mt-0 rounded-[20px] sm:rounded-2xl"
+          class="object-cover object-center h-full w-full -mt-[15%] md:mt-0 rounded-[20px] md:rounded-none lg:rounded-2xl"
         />
       </div>
     </div>
