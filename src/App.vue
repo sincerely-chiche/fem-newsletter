@@ -1,31 +1,31 @@
 <template>
   <div
-    class="min-w-screen h-screen overflow-hidden bg-lightGrey text-white sm:flex sm:flex-col sm:justify-center sm:items-start"
+    class="min-w-screen h-screen overflow-auto sm:overflow-hidden bg-lightGrey text-white sm:flex sm:flex-col sm:justify-center sm:items-start"
   >
     <AlertModal :email="email" @close="closeModal" v-if="success.state" />
     <div
       v-else
-      class="sm:w-7/12 sm:mx-auto sm:h-[70vh] sm:px-6 sm:py-4 bg-white text-darkGrey sm:rounded-3xl sm:flex sm:flex-row flex-col sm:shadow-md animate__animated animate__zoomIn animate__faster"
+      class="w-full sm:w-7/12 sm:mx-auto h-full sm:h-[70vh] sm:px-6 sm:py-4 bg-white text-darkGrey sm:rounded-3xl flex sm:flex-row flex-col-reverse sm:shadow-md animate__animated animate__zoomIn animate__faster"
     >
-      <div class="w-7/12 sm:pt-16 sm:pl-10 sm:pr-16">
+      <div class="w-full sm:w-7/12 sm:pt-16 sm:pl-10 sm:pr-16 px-6">
         <!-- Sign-up form start -->
-        <h1 class="text-5xl sm:font-bold">Stay updated!</h1>
+        <h1 class="text-5xl font-bold">Stay updated!</h1>
 
-        <p class="py-4 text-sm font-medium">
+        <p class="py-4 text-md font-medium">
           Join 60,000+ product managers receiving monthly <br />
           updates on:
         </p>
 
         <ul class="mt-2">
-          <li class="flex items-center space-x-4 mb-2 text-sm font-semibold">
+          <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
             <img src="images/icon-list.svg" class="h-4" alt="List" />
             <span>Product discovery and building what matters</span>
           </li>
-          <li class="flex items-center space-x-4 mb-2 text-sm font-semibold">
+          <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
             <img src="images/icon-list.svg" class="h-4" alt="List" />
             <span>Measuring to ensure updates are a success</span>
           </li>
-          <li class="flex items-center space-x-4 mb-2 text-sm font-semibold">
+          <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
             <img src="images/icon-list.svg" class="h-4" alt="List" />
             <span>And much more!</span>
           </li>
@@ -68,11 +68,11 @@
 
         <!-- Sign-up form end -->
       </div>
-      <div class="w-5/12">
+      <div class="w-full sm:w-5/12">
         <img
           src="images/desktop-img.svg"
           alt="Frontend mentor"
-          class="object-contain object-center h-full w-full"
+          class="object-cover object-center h-full w-full -mt-[15%] sm:mt-0 rounded-[20px] sm:rounded-2xl"
         />
       </div>
     </div>
