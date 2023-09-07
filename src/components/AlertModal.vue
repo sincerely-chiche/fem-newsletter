@@ -3,7 +3,7 @@
     class="w-full h-full md:h-auto md:w-7/12 lg:w-6/12 xl:w-4/12 sm:mx-auto px-6 pt-20 sm:p-14 bg-white text-darkGrey sm:rounded-3xl flex flex-col justify-evenly sm:space-y-10 items-start sm:shadow-md animate__animated animate__zoomIn animate__faster"
   >
     <!-- Success message start -->
-    <img src="images/icon-success.svg" alt="Success" class="h-18" />
+    <img src="/images/icon-success.svg" alt="Success" class="h-18" />
 
     <div class="space-y-8">
       <h1 class="text-5xl font-bold">Thanks for subscribing!</h1>

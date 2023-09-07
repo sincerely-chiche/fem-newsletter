@@ -20,15 +20,15 @@
 
         <ul class="mt-2">
           <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
-            <img src="images/icon-list.svg" class="h-4" alt="List" />
+            <img src="/images/icon-list.svg" class="h-4" alt="List" />
             <span>Product discovery and building what matters</span>
           </li>
           <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
-            <img src="images/icon-list.svg" class="h-4" alt="List" />
+            <img src="/images/icon-list.svg" class="h-4" alt="List" />
             <span>Measuring to ensure updates are a success</span>
           </li>
           <li class="flex items-center space-x-4 mb-2 text-md font-semibold">
-            <img src="images/icon-list.svg" class="h-4" alt="List" />
+            <img src="/images/icon-list.svg" class="h-4" alt="List" />
             <span>And much more!</span>
           </li>
         </ul>
@@ -72,7 +72,7 @@
       </div>
       <div class="w-full lg:w-5/12">
         <img
-          src="images/desktop-img.svg"
+          src="/images/desktop-img.svg"
           alt="Frontend mentor"
           class="object-cover object-center h-full w-full -mt-[15%] md:mt-0 rounded-[20px] md:rounded-none lg:rounded-2xl"
         />
