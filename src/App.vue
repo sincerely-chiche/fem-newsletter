@@ -5,7 +5,7 @@
     <AlertModal :email="email" @close="closeModal" v-if="success.state" />
     <div
       v-else
-      class="w-full lg:w-10/12 xl:w-7/12 lg:mx-auto h-full lg:h-[70vh] lg:pl-6 lg:pr-4 lg:py-4 bg-white text-darkGrey lg:rounded-3xl flex md:flex-row flex-col-reverse lg:shadow-md animate__animated animate__zoomIn animate__faster"
+      class="w-full lg:w-10/12 xl:w-8/12 lg:mx-auto h-full lg:h-[70vh] lg:pl-6 lg:pr-4 lg:py-4 bg-white text-darkGrey lg:rounded-3xl flex md:flex-row flex-col-reverse lg:shadow-md animate__animated animate__zoomIn animate__faster"
     >
       <div
         class="w-full lg:w-7/12 md:pt-28 lg:pt-16 lg:pl-10 lg:pr-16 px-6 lg:overflow-auto"
