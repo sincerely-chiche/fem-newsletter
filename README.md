@@ -50,6 +50,7 @@ Users should be able to:
 ### Useful resources
 
 - [BoxShadow](https://cssgenerator.org/box-shadow-css-generator.html) - This helped me with custom box shadow
+- [Animation](https://animate.style/) - This helped me with animation
 
 ## Author
 
